@@ -1,6 +1,8 @@
 from django.contrib import admin
 from app15 import models
 
+
+
 # Register your models here.
 class TopicAdminView(admin.ModelAdmin):
     list_display=('topic_name',)
